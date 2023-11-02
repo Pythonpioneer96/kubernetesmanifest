@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: https://github.com/Pythonpioneer96/kubernetesmanifest.git
+  url: ssh://git@github.com/Pythonpioneer96/kubernetesmanifest
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
